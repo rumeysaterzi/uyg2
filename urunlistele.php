@@ -10,6 +10,10 @@
 
 <?php
 	
+		$dosya1=fopen("ürünekler");
+		$dosya2=fopen("not.txt","r");
+		while (!feof($dosya1) && !feof($dosya2))
+	
 	
 	
 	
